@@ -1,0 +1,41 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3;
+    padding: 0;
+    background-color:rgb(214, 203, 189);
+    color:rgb(50, 50, 50);
+}
+
+header{
+    background-color: rgb(226, 213, 186);
+    padding: 3px;
+    border-bottom: double rgb(81, 75, 67) 0.75rem;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+nav ul li a{
+    color:rgb(81, 75, 67);
+    padding: 10px;
+}
+nav ul li a:hover{
+    background-color: rgb(185, 169, 137);
+}
+
+
+.myCard{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(204, 204, 204);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
